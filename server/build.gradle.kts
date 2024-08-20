@@ -1,7 +1,12 @@
 import org.jetbrains.kotlin.de.undercouch.gradle.tasks.download.Download
 
 
+dependencies{
+    implementation("org.opensearch.plugin:opensearch-sql-plugin:2.16.0.0")
+}
+
 val avroResourceDir = "$projectDir/src/main/avro"
+
 
 // makeAvroDir task
 tasks.register("makeAvroDir") {

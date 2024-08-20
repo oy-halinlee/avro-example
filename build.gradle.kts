@@ -39,6 +39,10 @@ subprojects {
         implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
         implementation("org.apache.avro:avro:1.12.0")
         implementation("org.reflections:reflections:0.10.2")
+        implementation("com.github.jsqlparser:jsqlparser:4.9")
+
+        testImplementation("io.mockk:mockk:1.13.12")
+        testImplementation("org.junit.jupiter:junit-jupiter-api:5.11.0")
     }
 
     tasks.withType<Test> {

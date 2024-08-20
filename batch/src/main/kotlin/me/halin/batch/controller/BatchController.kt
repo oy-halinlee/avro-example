@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController
 class BatchController(
     private val batchService: BatchService,
 ) {
-    @GetMapping("/batch")
+    @GetMapping("/  batch")
     fun trigger(
         @RequestParam type: String,
         @RequestParam indexName: String,

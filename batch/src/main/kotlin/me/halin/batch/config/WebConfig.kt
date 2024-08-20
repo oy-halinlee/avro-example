@@ -5,7 +5,6 @@ import org.apache.avro.io.BinaryEncoder
 import org.apache.avro.io.DatumWriter
 import org.apache.avro.io.DecoderFactory
 import org.apache.avro.io.EncoderFactory
-import org.apache.avro.specific.AvroGenerated
 import org.apache.avro.specific.SpecificDatumReader
 import org.apache.avro.specific.SpecificDatumWriter
 import org.apache.avro.specific.SpecificRecordBase
